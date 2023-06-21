@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Gym</title>
+  <style>
+    /* Reset default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sections */
+section {
+  padding: 40px;
+}
+
+#home {
+  background-color: #f4f4f4;
+}
+
+#about {
+  background-color: #e4e4e4;
+}
+
+#classes {
+  background-color: #d4d4d4;
+}
+
+#contact {
+  background-color: #c4c4c4;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to My Gym</h1>
+    <p>Your fitness journey starts here!</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a premier fitness center committed to helping you achieve your fitness goals.</p>
+  </section>
+
+  <section id="classes">
+    <h2>Classes</h2>
+    <ul>
+      <li>Yoga</li>
+      <li>Zumba</li>
+      <li>Spin</li>
+      <li>Pilates</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Gym. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
