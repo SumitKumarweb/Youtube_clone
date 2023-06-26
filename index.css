@@ -135,19 +135,21 @@ section {
   height: 200px;
   border-radius: 10px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 .logo img {
   width: 30px;
   height: 30px;
   margin-right: 20px;
   cursor: pointer;
+  border-radius: 100px;
 }
 .logo {
   display: flex;
   word-wrap: break-word;
   width: 400px;
   font-weight: 700;
-  margin: 10px;
+  /* margin: 10px; */
 }
 .channel_name {
   margin-left: 60px;
@@ -160,6 +162,9 @@ section {
 }
 .time {
   margin-left: 10px;
+}
+#video_container > div {
+  margin: 10px;
 }
 
 /* search result video css  */
